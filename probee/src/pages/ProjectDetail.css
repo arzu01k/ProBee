@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.page-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar-container {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.detail-container {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.detail-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-info {
+  background-color: #ad985e2e;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffc107;
+}
+
+.project-name-wrapper,
+.project-description-wrapper {
+  margin-bottom: 20px;
+}
+
+.project-name-label,
+.project-description-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+  color: #333;
+}
+
+.project-name-input,
+.project-description-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ffc107;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.lists-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.student-list,
+.file-list {
+  width: 45%;
+  background-color: #ffe082;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ffc107;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-list h3,
+.file-list h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.student-list ul,
+.file-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ffc107;
+  color: #333;
+}
+
+.student-list li:last-child {
+  border-bottom: none;
+}
+
+.detail-wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.file-input {
+  display: block;
+  margin: 0 auto; /* Center the file input horizontally */
+  text-align: center;
+}
+
+.file-input::file-selector-button {
+  cursor: pointer;
+}
+
+.file-input::-webkit-file-upload-button {
+  margin-right: 0;
+}
+
+.file-input::file-selector-button {
+  margin-right: 0;
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.custom-file-button {
+  display: inline-block;
+  padding: 10px 66px;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.custom-file-button:hover {
+  background-color: #ffb300;
+}

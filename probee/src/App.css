@@ -1,0 +1,12 @@
+.App {
+  width: 100%;
+}
+
+.Page {
+  width: 100%;
+}
+
+.sidebar-container{
+  height: 100%;
+  min-height: 100vh;
+}
